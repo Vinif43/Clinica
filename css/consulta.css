@@ -1,0 +1,111 @@
+.consultas{
+    padding-right: 4%;
+    padding-left: 4%;
+}
+
+.consultas__titulo{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.6px;
+    padding: 33px 3% 16px 2%;
+}
+
+.consultas__parciente{
+    /* width: 328px;
+    padding: 1rem 1.9rem 1rem 1rem; */
+    background-color: #ffffff;
+    
+    /* background-position: top 1.25rem left 2.5rem; */
+    padding: 1rem 0 1.5rem 0;
+    width: 378px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.consultas__luciana{
+    width: 57px;
+    border-radius: 100px;
+    /* background-color: aqua;
+    background-image: url(../img/perfil-2.jpg);
+    background-repeat: no-repeat; */
+    /* background-size: 80px; */
+}
+
+.consultas__perfil{
+    padding: 1rem 0.1% 1rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.consultas__nome{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.consultas__forma{
+    font-size: 15px;
+    line-height: 25px;
+    padding-left: 8px;
+}
+
+.consultas__parciente .container{
+    display: flex;
+    align-items: initial;
+    color: #A3A3A3;
+}
+
+.consultas__video{
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.consultas__informacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas__mensagem{
+    color: #4894FF;
+    font-size: 18px;
+    background-color: #F6F6F6;
+    border-radius: 100px;
+    padding: 9px 9px 8px 9px;
+}
+
+hr{
+    border: 1px solid #464646;
+    background-color: #464646;
+    opacity: 0.1;
+}
+
+.consultas__horario{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 9px 0 13px 33px;
+}
+
+.consultas__chamada{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.consultas__chamada-video{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #FFB050;
+    box-shadow: 0px 4px 16px rgba(255, 176, 80, 0.16);
+    padding: 16px 13px;
+    border-radius: 8px;
+}
+
+.consultas__chamada-audio{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #ECECEC;
+    padding: 16px 13px;
+    border-radius: 8px;
+}
