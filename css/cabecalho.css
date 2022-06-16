@@ -4,18 +4,24 @@
     width: 360px;
     height: 59px;
     margin-top: 65px;
-    position: relative;
     background-color: #f1f1f6;
 }
 
-.teste{
+/* .teste{
+    width: 350px;
+    height: 133px;
+    padding-right: 4%;
+    padding-left: 4%;
+} */
+
+/* .teste{
     position: fixed;
     width: 360px;
     height: 59px;
     display: flex;
     align-items: center;
     background-color: #f1f1f6;
-}
+} */
 
 .cabecalho__perfil{
     width: 73px;
