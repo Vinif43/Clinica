@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/consulta.css">
+    <link rel="stylesheet" href="css/agendamento.css">
     <title>Document</title>
 </head>
 <body>
@@ -287,10 +288,32 @@
                     </div>
             </div>
 
+
+            <section class="agendamento" onclick="actionToggle();">
+                <span class="agendamento__x">+</span>
+
+                <ul class="agendamento__lista">
+                    <li class="agendamento__escolha">
+                        <span class="agendamento__texto">Nova consulta na casa do paciente</span>
+                        <button class="agendamento__butao localizacao"><ion-icon name="location-outline"></ion-icon></ion-icon></button>
+                    </li>
+                    <li class="agendamento__escolha">
+                        <span class="agendamento__texto">Nova consulta por vídeo</span>
+                        <button class="agendamento__butao video"><ion-icon name="videocam-outline"></ion-icon></button>
+                    </li>
+                </ul>
+            </section>
+
         </section>
     </main>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="text/javascript">
+        function actionToggle(){
+            var action = document.querySelector('.agendamento');
+            action.classList.toggle('active')
+        }
+    </script>
 </body>
 </html>
